@@ -1,0 +1,2 @@
+모델,Train(CV) MAPE,Valid MAPE,Test(B2) MAPE,Gap(Train-Valid),Gap(Valid-Test),Gap(Target-Test),Test MAE,Test RMSE
+ElasticNet(dq_var),7.23,23.33,36.67,16.1,13.34,27.57,177.53,189.7

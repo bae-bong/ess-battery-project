@@ -1,0 +1,2 @@
+모델,Test(B2) MAPE,Batch3 MAPE,Gap(Batch2-Batch3),Batch3 MAE
+ElasticNet(dq_var),36.67,13.56,-23.11,170.45

@@ -1,0 +1,39 @@
+모델,feature,설정,Train(CV) MAPE,CV std,Valid MAPE
+선형회귀,A,{},7.23,2.38,23.57
+Ridge,A,{'alpha': 1},7.3,2.41,22.52
+Ridge,A,{'alpha': 10},8.71,2.1,15.75
+Ridge,A,{'alpha': 30},11.94,3.08,8.84
+Ridge,A,{'alpha': 100},15.75,6.0,10.98
+ElasticNet,A,"{'alpha': 0.003, 'l1_ratio': 0.1}",7.23,2.4,23.33
+ElasticNet,A,"{'alpha': 0.003, 'l1_ratio': 0.5}",7.27,2.4,22.84
+ElasticNet,A,"{'alpha': 0.003, 'l1_ratio': 0.9}",7.3,2.4,22.36
+ElasticNet,A,"{'alpha': 0.01, 'l1_ratio': 0.1}",7.27,2.41,22.79
+ElasticNet,A,"{'alpha': 0.01, 'l1_ratio': 0.5}",7.4,2.39,21.2
+ElasticNet,A,"{'alpha': 0.01, 'l1_ratio': 0.9}",7.7,2.25,19.64
+ElasticNet,A,"{'alpha': 0.03, 'l1_ratio': 0.1}",7.38,2.41,21.3
+ElasticNet,A,"{'alpha': 0.03, 'l1_ratio': 0.5}",8.32,2.05,16.85
+ElasticNet,A,"{'alpha': 0.03, 'l1_ratio': 0.9}",10.14,2.67,12.74
+ElasticNet,A,"{'alpha': 0.1, 'l1_ratio': 0.1}",8.24,2.14,16.79
+ElasticNet,A,"{'alpha': 0.1, 'l1_ratio': 0.5}",14.75,7.4,8.2
+ElasticNet,A,"{'alpha': 0.1, 'l1_ratio': 0.9}",19.14,8.57,16.08
+RandomForest,A,{'depth': 3},9.88,4.22,10.67
+GradientBoosting,A,{'depth': 2},9.39,1.95,7.81
+선형회귀,B,{},9.4,2.09,22.76
+Ridge,B,{'alpha': 1},9.16,2.13,21.29
+Ridge,B,{'alpha': 10},8.84,2.44,15.68
+Ridge,B,{'alpha': 30},10.22,1.16,10.86
+Ridge,B,{'alpha': 100},13.77,3.44,8.64
+ElasticNet,B,"{'alpha': 0.003, 'l1_ratio': 0.1}",9.2,1.98,22.54
+ElasticNet,B,"{'alpha': 0.003, 'l1_ratio': 0.5}",8.59,1.87,22.28
+ElasticNet,B,"{'alpha': 0.003, 'l1_ratio': 0.9}",8.17,1.99,22.03
+ElasticNet,B,"{'alpha': 0.01, 'l1_ratio': 0.1}",8.84,1.9,22.05
+ElasticNet,B,"{'alpha': 0.01, 'l1_ratio': 0.5}",7.73,2.36,21.02
+ElasticNet,B,"{'alpha': 0.01, 'l1_ratio': 0.9}",7.88,2.02,19.57
+ElasticNet,B,"{'alpha': 0.03, 'l1_ratio': 0.1}",8.23,2.35,20.7
+ElasticNet,B,"{'alpha': 0.03, 'l1_ratio': 0.5}",8.42,1.81,16.82
+ElasticNet,B,"{'alpha': 0.03, 'l1_ratio': 0.9}",10.14,2.67,12.74
+ElasticNet,B,"{'alpha': 0.1, 'l1_ratio': 0.1}",8.84,1.59,16.57
+ElasticNet,B,"{'alpha': 0.1, 'l1_ratio': 0.5}",14.75,7.4,8.2
+ElasticNet,B,"{'alpha': 0.1, 'l1_ratio': 0.9}",19.14,8.57,16.08
+RandomForest,B,{'depth': 3},10.22,5.1,9.19
+GradientBoosting,B,{'depth': 2},10.73,4.05,7.4
