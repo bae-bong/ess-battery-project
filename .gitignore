@@ -1,0 +1,17 @@
+# 데이터 (용량이 커서 올리지 않음)
+data/*
+!data/README.md
+*.mat
+*.pkl
+*.csv
+!results/*.csv
+
+# 강사 제공 scratch 노트북 (제출 대상 아님)
+notebooks/30-ESSHealth-scratch.ipynb
+
+# 가상환경 / 캐시
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
